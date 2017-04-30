@@ -51,7 +51,7 @@
         (magenta2 nubox_bright_magenta)
         (cyan nubox_neutral_cyan)
         (cyan2 nubox_bright_cyan)
-        (white nubox_light1)
+        (white nubox_light2)
         (white2 nubox_light0_hard)
         (orange nubox_neutral_orange)
         (orange2 nubox_bright_orange))
