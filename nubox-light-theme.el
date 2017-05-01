@@ -1,7 +1,7 @@
 (deftheme nubox-light "Personal theme (light version)")
 (let (
 (nubox_truewhite "#ffffff")
-(nubox_truewblack "#ffffff")
+(nubox_trueblack "#000000")
 (nubox_dark0_hard "#1d2021")
 (nubox_dark0 "#282828")
 (nubox_dark0_soft "#32302f")
@@ -40,10 +40,10 @@
 (nubox_faded_cyan "#427b58")
 (nubox_faded_orange "#af3a03"))
 (let (
-(black  nubox_light0_hard)
+(black  nubox_truewhite)
 (black2 nubox_light4)
 (white  nubox_dark1)
-(white2 nubox_dark0_hard)
+(white2 nubox_trueblack)
 (red nubox_neutral_red)
 (red2 nubox_faded_red)
 (green nubox_neutral_green)

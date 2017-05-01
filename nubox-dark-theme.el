@@ -1,7 +1,7 @@
 (deftheme nubox-dark "Personal theme (dark version)")
 (let (
 (nubox_truewhite "#ffffff")
-(nubox_truewblack "#ffffff")
+(nubox_trueblack "#000000")
 (nubox_dark0_hard "#1d2021")
 (nubox_dark0 "#282828")
 (nubox_dark0_soft "#32302f")
