@@ -14,7 +14,7 @@ gruvbox ports this theme has a few new things
 
 - Proper ansi-term color support
 - Matching dark and light theme
-- Purposfully limited to 18 colors (normal 16 colors + (dark/light) orange)
+- Purposfully limited to 16 colors
 - Higher contrast
 - Different colors for dired, mu4e and org mode.
 
