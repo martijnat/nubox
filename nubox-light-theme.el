@@ -41,7 +41,7 @@
 (nubox_faded_orange "#af3a03"))
 (let (
 (black  nubox_truewhite)
-(black2 nubox_light4)
+(black2 nubox_dark4)
 (white  nubox_dark1)
 (white2 nubox_trueblack)
 (red nubox_neutral_red)
@@ -117,7 +117,7 @@
      `(org-document-info  ((t (:foreground ,blue2))))
      `(org-document-title  ((t (:weight bold :foreground ,white2))))
      `(org-footnote  ((t (:underline t :foreground ,blue2))))
-     `(org-table  ((t (:foreground ,white))))
+     `(org-table  ((t (:foreground ,blue2))))
      `(org-latex-and-related  ((t (:foreground ,white))))
      `(org-todo  ((t (:weight bold :foreground ,red2))))
      `(org-special-keyword  ((t (:weight bold :foreground ,black2))))
