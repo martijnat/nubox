@@ -41,7 +41,7 @@
 (nubox_faded_orange "#af3a03"))
 (let (
 (black "#000000")
-(black2 "#545454")
+(black2 "grey")
 (red "#a80000")
 (red2 "#fc5454")
 (green "#00a800")
