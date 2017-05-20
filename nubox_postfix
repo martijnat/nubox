@@ -85,6 +85,7 @@
      `(match ((t (:foreground ,black :background ,blue))))
      `(next-error ((t (:inherit (region)))))
      `(query-replace ((t (:inherit (isearch)))))
+     `(ac-completion-face ((t (:inherit (font-lock-comment-face)))))
      `(artbollocks-face ((t (:underline (:color ,magenta :style line)))))
      `(artbollocks-lexical-illusions-face ((t (:underline (:color ,magenta :style line)))))
      `(artbollocks-passive-voice-face ((t (:underline (:color ,green :style line)))))
