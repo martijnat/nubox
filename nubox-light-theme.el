@@ -1,3 +1,10 @@
+;;; nubox-light-theme.el --- Nubox color theme (light version)
+
+;;; Commentary:
+;;
+
+;;; Code:
+
 (deftheme nubox-light "Personal theme (light version)")
 (let (
 (nubox_truewhite "#ffffff")
@@ -56,7 +63,7 @@
 (magenta2 nubox_faded_magenta)
 (cyan nubox_neutral_cyan)
 (cyan2 nubox_faded_cyan)
-) (custom-theme-set-faces 'nubox-light 
+) (custom-theme-set-faces 'nubox-light
      `(default ((t (:foreground ,white2 :background ,black))))
      `(cursor ((t (:background ,white2))))
      `(escape-glyph ((t (:foreground ,blue))))
@@ -173,3 +180,5 @@
      `(show-paren-match ((t (:weight bold :foreground ,white :background ,black2))))
      `(show-paren-mismatch ((t (:weight bold :foreground ,black :background ,red)))))))
 (provide-theme 'nubox-light)
+
+;;; nubox-light-theme.el ends here

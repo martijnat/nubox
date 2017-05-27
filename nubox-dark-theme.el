@@ -1,3 +1,10 @@
+;;; nubox-dark-theme.el --- Nubox color theme (dark version)
+
+;;; Commentary:
+;;
+
+;;; Code:
+
 (deftheme nubox-dark "Personal theme (dark version)")
 (let (
 (nubox_truewhite "#ffffff")
@@ -56,7 +63,7 @@
 (cyan2 nubox_bright_cyan)
 (white nubox_light2)
 (white2 nubox_light0_hard)
-) (custom-theme-set-faces 'nubox-dark 
+) (custom-theme-set-faces 'nubox-dark
      `(default ((t (:foreground ,white2 :background ,black))))
      `(cursor ((t (:background ,white2))))
      `(escape-glyph ((t (:foreground ,blue))))
@@ -173,3 +180,7 @@
      `(show-paren-match ((t (:weight bold :foreground ,white :background ,black2))))
      `(show-paren-mismatch ((t (:weight bold :foreground ,black :background ,red)))))))
 (provide-theme 'nubox-dark)
+
+(provide 'nubox-dark-theme)
+
+;;; nubox-dark-theme.el ends here
