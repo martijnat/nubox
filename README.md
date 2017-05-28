@@ -14,7 +14,7 @@ Version for terminals with limited color support
 
 # Installation
 
-The theme is avaible on [[https://melpa.org/#/nubox][MELPA]]. If you
+The theme is avaible on [MELPA](https://melpa.org/#/nubox) . If you
 use MELPA you can install this theme using
 
 `M-x package-install tao-theme`
