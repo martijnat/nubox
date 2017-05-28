@@ -12,6 +12,17 @@ Light version
 Version for terminals with limited color support
 ![Screenshot](screenshot_tty.png)
 
+** Installation
+
+The theme is avaible on [[https://melpa.org/#/nubox][MELPA]]. If you
+use MELPA you can install this theme using
+
+`M-x package-install tao-theme`
+
+alternatively download the files nubox-light-theme.el,
+nubox-dark-theme.el and nubox-tty-theme.el and put them in a path in
+your custom-theme-load-path
+
 # Notes
 
 This theme is largely based of
