@@ -1,63 +1,87 @@
-(deftheme nubox-tty "Personal theme (tty version)")
-(let (
-(nubox_truewhite "#ffffff")
-(nubox_trueblack "#000000")
-(nubox_dark0_hard "#1d2021")
-(nubox_dark0 "#282828")
-(nubox_dark0_soft "#32302f")
-(nubox_dark1 "#3c3836")
-(nubox_dark2 "#504945")
-(nubox_dark3 "#665c54")
-(nubox_dark4 "#7c6f64")
-(nubox_gray_245 "#928374")
-(nubox_gray_244 "#928374")
-(nubox_light0_hard "#f9f5d7")
-(nubox_light0 "#fbf1c7")
-(nubox_light0_soft "#f2e5bc")
-(nubox_light1 "#ebdbb2")
-(nubox_light2 "#d5c4a1")
-(nubox_light3 "#bdae93")
-(nubox_light4 "#a89984")
-(nubox_bright_red "#fb4934")
-(nubox_bright_green "#b8bb26")
-(nubox_bright_yellow "#fabd2f")
-(nubox_bright_blue "#83a598")
-(nubox_bright_magenta "#d3869b")
-(nubox_bright_cyan "#8ec07c")
-(nubox_bright_orange "#fe8019")
-(nubox_neutral_red "#cc241d")
-(nubox_neutral_green "#98971a")
-(nubox_neutral_yellow "#d79921")
-(nubox_neutral_blue "#458588")
-(nubox_neutral_magenta "#b16286")
-(nubox_neutral_cyan "#689d6a")
-(nubox_neutral_orange "#d65d0e")
-(nubox_faded_red "#9d0006")
-(nubox_faded_green "#79740e")
-(nubox_faded_yellow "#b57614")
-(nubox_faded_blue "#076678")
-(nubox_faded_magenta "#8f3f71")
-(nubox_faded_cyan "#427b58")
-(nubox_faded_orange "#af3a03"))
-(let (
-(black "#000000")
-(black2 "#a8a8a8")
-(red "#a80000")
-(red2 "#fc5454")
-(green "#00a800")
-(green2"#54fc54")
-(yellow "#a85400")
-(yellow2"#fcfc54")
-(blue "#0000a8")
-(blue2"#5454fc")
-(magenta "#a800a8")
-(magenta2"#fc54fc")
-(cyan "#00a8a8")
-(cyan2"#54fcfc")
-(white "#a8a8a8")
-(white2"#fcfcfc")
+;;; nubox-dark-theme.el --- Nubox color theme (tty version)
 
-) (custom-theme-set-faces 'nubox-tty 
+;; Author: Martijn Terpstra <bigmartijn@gmail.com>
+;; Package-Version: 1.0.0
+;; Keywords: faces
+
+;; This file is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation; either version 3, or (at your option)
+;; any later version.
+
+;; This file is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with GNU Emacs; see the file COPYING.  If not, write to
+;; the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+;; Boston, MA 02111-1307, USA.
+
+;;; Commentary:
+;;
+
+;;; Code:
+
+(deftheme nubox-tty "Personal theme (tty version)")
+(let ((nubox_truewhite "#ffffff")
+      (nubox_trueblack "#000000")
+      (nubox_dark0_hard "#1d2021")
+      (nubox_dark0 "#282828")
+      (nubox_dark0_soft "#32302f")
+      (nubox_dark1 "#3c3836")
+      (nubox_dark2 "#504945")
+      (nubox_dark3 "#665c54")
+      (nubox_dark4 "#7c6f64")
+      (nubox_gray_245 "#928374")
+      (nubox_gray_244 "#928374")
+      (nubox_light0_hard "#f9f5d7")
+      (nubox_light0 "#fbf1c7")
+      (nubox_light0_soft "#f2e5bc")
+      (nubox_light1 "#ebdbb2")
+      (nubox_light2 "#d5c4a1")
+      (nubox_light3 "#bdae93")
+      (nubox_light4 "#a89984")
+      (nubox_bright_red "#fb4934")
+      (nubox_bright_green "#b8bb26")
+      (nubox_bright_yellow "#fabd2f")
+      (nubox_bright_blue "#83a598")
+      (nubox_bright_magenta "#d3869b")
+      (nubox_bright_cyan "#8ec07c")
+      (nubox_bright_orange "#fe8019")
+      (nubox_neutral_red "#cc241d")
+      (nubox_neutral_green "#98971a")
+      (nubox_neutral_yellow "#d79921")
+      (nubox_neutral_blue "#458588")
+      (nubox_neutral_magenta "#b16286")
+      (nubox_neutral_cyan "#689d6a")
+      (nubox_neutral_orange "#d65d0e")
+      (nubox_faded_red "#9d0006")
+      (nubox_faded_green "#79740e")
+      (nubox_faded_yellow "#b57614")
+      (nubox_faded_blue "#076678")
+      (nubox_faded_magenta "#8f3f71")
+      (nubox_faded_cyan "#427b58")
+      (nubox_faded_orange "#af3a03"))
+  (let ((black "#000000")
+        (black2 "#a8a8a8")
+        (red "#a80000")
+        (red2 "#fc5454")
+        (green "#00a800")
+        (green2"#54fc54")
+        (yellow "#a85400")
+        (yellow2"#fcfc54")
+        (blue "#0000a8")
+        (blue2"#5454fc")
+        (magenta "#a800a8")
+        (magenta2"#fc54fc")
+        (cyan "#00a8a8")
+        (cyan2"#54fcfc")
+        (white "#a8a8a8")
+        (white2"#fcfcfc"))
+    (custom-theme-set-faces
+     'nubox-tty
      `(default ((t (:foreground ,white2 :background ,black))))
      `(cursor ((t (:background ,white2))))
      `(escape-glyph ((t (:foreground ,blue))))
@@ -174,3 +198,5 @@
      `(show-paren-match ((t (:weight bold :foreground ,white :background ,black2))))
      `(show-paren-mismatch ((t (:weight bold :foreground ,black :background ,red)))))))
 (provide-theme 'nubox-tty)
+
+;;; nubox-tty-theme.el ends here
