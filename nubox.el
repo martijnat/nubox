@@ -1,4 +1,4 @@
-;;; tao-theme.el --- Tao of EMACS grayscale color theme
+;;; nubox.el --- Nubox color theme (dark version)
 
 ;; Author: Martijn Terpstra <bigmartijn@gmail.com>
 ;; Package-Version: 1.0.0
@@ -29,3 +29,5 @@
 ;;; Code:
 
 (provide 'nubox)
+
+;; nubox.el ends here

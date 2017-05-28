@@ -1,4 +1,4 @@
-;;; nubox-dark-theme.el --- Nubox color theme (tty version)
+;;; nubox-tty-theme.el --- Nubox color theme (tty version)
 
 ;; Author: Martijn Terpstra <bigmartijn@gmail.com>
 ;; Package-Version: 1.0.0
@@ -24,7 +24,7 @@
 
 ;;; Code:
 
-(deftheme nubox-tty "Personal theme (tty version)")
+(deftheme nubox-tty "Nubox (tty version)")
 (let ((nubox_truewhite "#ffffff")
       (nubox_trueblack "#000000")
       (nubox_dark0_hard "#1d2021")
@@ -207,5 +207,7 @@
      (add-to-list 'custom-theme-load-path
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
+
+(provide 'nubox-tty-theme)
 
 ;;; nubox-tty-theme.el ends here

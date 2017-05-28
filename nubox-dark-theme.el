@@ -24,7 +24,7 @@
 
 ;;; Code:
 
-(deftheme nubox-dark "Personal theme (dark version)")
+(deftheme nubox-dark "Nubox (dark version)")
 (let ((nubox_truewhite "#ffffff")
       (nubox_trueblack "#000000")
       (nubox_dark0_hard "#1d2021")
@@ -207,5 +207,7 @@
      (add-to-list 'custom-theme-load-path
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
+
+(provide 'nubox-dark-theme)
 
 ;;; nubox-dark-theme.el ends here
