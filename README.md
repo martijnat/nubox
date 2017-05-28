@@ -3,8 +3,13 @@ A set of colorful matching themes
 
 # Screenshots
 
+Dark version
 ![Screenshot](screenshot_dark.png)
+
+Light version
 ![Screenshot](screenshot_light.png)
+
+Version for terminals with limited color support
 ![Screenshot](screenshot_tty.png)
 
 # Notes
