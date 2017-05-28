@@ -5,6 +5,7 @@ A set of colorful matching themes
 
 ![Screenshot](screenshot_dark.png)
 ![Screenshot](screenshot_light.png)
+![Screenshot](screenshot_tty.png)
 
 # Notes
 
