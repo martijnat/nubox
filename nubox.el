@@ -1,4 +1,4 @@
-;;; nubox.el --- Nubox color theme (dark version)
+;;; nubox.el --- Nubox color theme (dark, light and tty versions)
 
 ;; Author: Martijn Terpstra <bigmartijn@gmail.com>
 ;; Package-Version: 1.0.0
