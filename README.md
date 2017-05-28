@@ -1,5 +1,5 @@
 # Nubox
-A theme for personal use based of gruvbox
+A set of colorful matching themes
 
 # Screenshots
 
@@ -17,4 +17,5 @@ gruvbox ports this theme has a few new things
 - Purposfully limited to 16 colors
 - Higher contrast
 - Different colors for dired, mu4e and org mode.
+- An special version of the theme that work on 8-color and 16-color terminals
 
