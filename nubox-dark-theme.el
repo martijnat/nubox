@@ -117,7 +117,7 @@
      `(ido-only-match ((t (:foreground ,yellow2))))
      `(ido-subdir ((t (:foreground ,blue2))))
      `(minibuffer-prompt ((t (:weight bold :foreground ,green :background ,black))))
-     `(highlight ((t (:foreground ,white :background ,black2 ))))
+     `(highlight ((t (:foreground ,black :background ,black2 ))))
      `(region ((t (:foreground ,black :background ,black2))))
      `(shadow ((t (:foreground ,black2))))
      `(secondary-selection ((t (:background ,black2))))
