@@ -85,7 +85,7 @@
      'nubox-light
      `(default ((t (:foreground ,white2 :background ,black))))
      `(cursor ((t (:background ,white2))))
-     `(escape-glyph ((t (:foreground ,blue))))
+     `(escape-glyph ((t (:foreground ,cyan2))))
      `(dired-async-failures ((t (:foreground ,red))))
      `(dired-async-message ((t (:weight bold :foreground ,white2))))
      `(dired-async-mode-message ((t (:weight bold :foreground ,white2))))
