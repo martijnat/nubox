@@ -65,7 +65,7 @@
       (nubox_faded_magenta "#8f3f71")
       (nubox_faded_cyan "#427b58")
       (nubox_faded_orange "#af3a03"))
-  (let ((black  nubox_light0_hard)
+  (let ((black  nubox_truewhite)
         (black2 nubox_dark4)
         (white  nubox_dark1)
         (white2 nubox_trueblack)
