@@ -120,7 +120,7 @@
      `(highlight ((t (:foreground ,black :background ,black2 ))))
      `(region ((t (:foreground ,black :background ,black2))))
      `(shadow ((t (:foreground ,black2))))
-     `(secondary-selection ((t (:background ,black2))))
+     `(secondary-selection ((t (:foreground ,white2 :background ,blue))))w
      `(trailing-whitespace ((((class color) (background light)) (:background ,red)) (((class color) (background dark)) (:background ,red)) (t (:inverse-video t))))
      `(font-lock-builtin-face ((t (:foreground ,cyan2))))
      `(font-lock-comment-delimiter-face ((default (:inherit (font-lock-comment-face)))))
