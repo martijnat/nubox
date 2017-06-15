@@ -37,7 +37,7 @@
       (nubox_gray_245 "#928374")
       (nubox_gray_244 "#928374")
       (nubox_light0_hard "#f9f5d7")
-      (nubox_light0 "#fbf1c7")
+      (nubox_light0 "#fdf6e3")
       (nubox_light0_soft "#f2e5bc")
       (nubox_light1 "#ebdbb2")
       (nubox_light2 "#d5c4a1")
