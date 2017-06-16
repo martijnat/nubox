@@ -163,6 +163,7 @@
      `(mode-line-inactive ((t (:box nil :foreground ,black :background ,black2))))
      `(mu4e-header-key-face ((t (:weight bold :foreground ,green2))))
      `(mu4e-unread-face ((t (:weight bold :foreground ,blue2))))
+     `(mu4e-highlight-face ((t (:inherit (font-lock-doc-face)))))
      `(isearch ((t (:foreground ,black :background ,green2))))
      `(isearch-lazy-highlight-face ((t (:foreground ,black :background ,blue2))))
      `(isearch-fail ((t (:foreground ,white2 :background ,red2))))
