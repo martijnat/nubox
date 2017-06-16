@@ -157,7 +157,7 @@
    `(writegood-passive-voice-face ((t (:underline (:color ,green :style line)))))
    `(writegood-weasels-face ((t (:underline (:color ,red :style line)))))
    `(show-paren-match ((t (:weight bold :foreground ,white :background ,black2))))
-   `(show-paren-mismatch ((t (:weight bold :foreground ,black :background ,red)))))))
+   `(show-paren-mismatch ((t (:weight bold :foreground ,black :background ,red))))))
 (provide-theme 'nubox-tty)
 
 ;;; Footer
