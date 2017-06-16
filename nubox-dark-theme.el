@@ -118,7 +118,7 @@
      `(ido-subdir ((t (:foreground ,blue2))))
      `(minibuffer-prompt ((t (:weight bold :foreground ,green :background ,black))))
      `(highlight ((t (:foreground ,black :background ,black2 ))))
-     `(region ((t (:foreground ,black :background ,black2))))
+     `(region ((t (:foreground ,black :background ,blue))))
      `(shadow ((t (:foreground ,black2))))
      `(secondary-selection ((t (:foreground ,white2 :background ,blue))))
      `(trailing-whitespace ((((class color) (background light)) (:background ,red)) (((class color) (background dark)) (:background ,red)) (t (:inverse-video t))))
