@@ -26,7 +26,7 @@
 
 (deftheme nubox-tty "Nubox (tty version)")
 (let ((black "#000000")
-      (black2 "#a8a8a8")
+      (black2 "#888888")
       (red "#a80000")
       (red2 "#fc5454")
       (green "#00a800")
@@ -39,7 +39,7 @@
       (magenta2"#fc54fc")
       (cyan "#00a8a8")
       (cyan2"#54fcfc")
-      (white "#a8a8a8")
+      (white "#cccccc")
       (white2"#fcfcfc"))
   (custom-theme-set-faces
    'nubox-tty
