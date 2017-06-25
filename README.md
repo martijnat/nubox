@@ -1,3 +1,8 @@
+# NOTICE
+
+I have stopped maintaining this theme. Instead the changes made will
+be merged into [gruvbox](https://github.com/greduan/emacs-theme-gruvbox).
+
 # Nubox
 A set of colorful matching themes
 
@@ -35,4 +40,3 @@ gruvbox ports this theme has a few new things
 - Higher contrast
 - Different colors for dired, mu4e and org mode.
 - An special version of the theme that work on 8-color and 16-color terminals
-
